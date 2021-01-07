@@ -5,6 +5,8 @@ Created on Mon Jul 22 18:23:08 2019
 
 @author: drimer
 """
+
+
 class goldenRise:
     def __init__(self):
         self.varema = 0
@@ -12,7 +14,7 @@ class goldenRise:
         self.strategy = ''
         self.position = 0
         self.stock = 0
-    
+
     def makeDecision(self, EMA1,EMA2,rsi):
         decision = 0
         if (EMA1[-1])>(EMA2[-1]):
